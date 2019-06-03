@@ -1,0 +1,36 @@
+.form {
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.input-div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.form input {
+  width: 400px;
+}
+
+.form button {
+  padding: 5px;
+  background-color: rgb(243, 17, 243);
+  border-color: rgb(243, 17, 243);
+  margin-left: 5px;
+  width: 100px;
+  cursor: pointer;
+  transition: 0.2s;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.from button:hover {
+  transform: scale(0.95);
+  transition: 0.2s;
+}

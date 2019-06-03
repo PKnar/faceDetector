@@ -1,0 +1,19 @@
+.bounding-box {
+  position: absolute;
+  box-shadow: 0 0 0 3px #149df2 inset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.facedetec-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.img-wrapper {
+  position: absolute;
+  margin-top: 15px;
+}
