@@ -5,9 +5,8 @@ const FaceRecognition = ({ imageUrl, box }) => {
   return (
     <div className="facedetec-container">
       <div className="img-wrapper">
-        <img id="inputImage" width="400px" height="auto" src={imageUrl} />
-
-        <div
+        <img id="inputImage" width="400px" height="auto" src={imageUrl} alt='' />
+       <div
           className="bounding-box"
           style={{
             top: box.topRow,

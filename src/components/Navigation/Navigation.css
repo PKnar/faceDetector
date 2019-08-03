@@ -15,3 +15,11 @@ nav #signout:hover {
   color: rgb(104, 103, 103);
   transition: 0.3s;
 }
+
+
+@media (max-width:500px){
+  nav  p{
+   color:transparent
+}
+
+}
